@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "k_archives",
+    "unarchive",
+]
+
+[profile.release]
+lto = true

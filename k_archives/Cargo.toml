@@ -1,0 +1,16 @@
+[package]
+name = "k_archives"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+binread = "2.2.0"
+byteorder = "1.4.3"
+cab = "0.6.0"
+crc-any = "2.4.4"
+thiserror = "1.0.31"
+rand = "0.8.5"
+
+[dev-dependencies]
+indicatif = { version = "0.16.2", features = ["rayon"] }
+rayon = "1.5.2"
